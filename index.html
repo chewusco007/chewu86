@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lightframe Atelier</title>
+    <meta
+      name="description"
+      content="Lightframe Atelier 是一个为摄影师打造的极简作品展示页面，适合呈现人像、纪实与自然影像。"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Manrope:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="brand" href="#top">Lightframe Atelier</a>
+        <nav class="site-nav">
+          <a href="#work">作品</a>
+          <a href="#story">理念</a>
+          <a href="#contact">预约</a>
+        </nav>
+      </header>
+
+      <main id="top">
+        <section class="hero">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Editorial Photographer</p>
+            <h1>用克制的镜头语言，留下有温度的画面。</h1>
+            <p class="hero-text">
+              为人像、婚礼、品牌与纪实拍摄提供高质感视觉表达。画面不喧闹，情绪会自己生长。
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#work">查看作品</a>
+              <a class="button button-secondary" href="#contact">联系拍摄</a>
+            </div>
+          </div>
+          <div class="hero-visual reveal delay-1" aria-hidden="true">
+            <div class="hero-card hero-card-tall"></div>
+            <div class="hero-card hero-card-wide"></div>
+          </div>
+        </section>
+
+        <section class="metrics reveal delay-2">
+          <div>
+            <span>08</span>
+            <p>年影像创作经验</p>
+          </div>
+          <div>
+            <span>120+</span>
+            <p>组完整委托拍摄</p>
+          </div>
+          <div>
+            <span>04</span>
+            <p>核心创作方向</p>
+          </div>
+        </section>
+
+        <section class="gallery-section" id="work">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Selected Works</p>
+            <h2>精选作品</h2>
+          </div>
+
+          <div class="gallery-grid">
+            <article class="gallery-card reveal">
+              <div class="gallery-image image-portrait"></div>
+              <div class="gallery-copy">
+                <h3>Portrait Stories</h3>
+                <p>自然光下的人像叙事，保留真实表情与呼吸感。</p>
+              </div>
+            </article>
+
+            <article class="gallery-card reveal delay-1">
+              <div class="gallery-image image-editorial"></div>
+              <div class="gallery-copy">
+                <h3>Editorial Mood</h3>
+                <p>兼顾品牌气质与人物状态，适合杂志感视觉表达。</p>
+              </div>
+            </article>
+
+            <article class="gallery-card reveal delay-2">
+              <div class="gallery-image image-wedding"></div>
+              <div class="gallery-copy">
+                <h3>Wedding Moments</h3>
+                <p>记录婚礼里最轻微也最动人的瞬间，让情绪留存更久。</p>
+              </div>
+            </article>
+
+            <article class="gallery-card reveal delay-3">
+              <div class="gallery-image image-landscape"></div>
+              <div class="gallery-copy">
+                <h3>Quiet Landscapes</h3>
+                <p>用留白、层次与光线塑造空间感，画面安静而有张力。</p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="story-section" id="story">
+          <div class="story-panel reveal">
+            <p class="eyebrow">Visual Philosophy</p>
+            <h2>摄影不是堆叠技巧，而是把看见变得更准确。</h2>
+            <p>
+              我偏爱简洁构图、柔和层次和克制色彩。每一次快门都服务于人物、场景与情绪本身，不让形式盖过内容。
+            </p>
+          </div>
+          <div class="story-list reveal delay-1">
+            <div>
+              <span>01</span>
+              <h3>前期沟通</h3>
+              <p>确定风格、场景、服装与情绪关键词，让拍摄目标更清晰。</p>
+            </div>
+            <div>
+              <span>02</span>
+              <h3>现场引导</h3>
+              <p>通过轻松自然的互动，让镜头前的状态更松弛。</p>
+            </div>
+            <div>
+              <span>03</span>
+              <h3>后期交付</h3>
+              <p>统一色调与细节修整，保留真实质感，不做过度修饰。</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="contact-section reveal" id="contact">
+          <div>
+            <p class="eyebrow">Book A Session</p>
+            <h2>如果你也偏爱安静而有力量的照片，我们可以开始聊聊。</h2>
+          </div>
+          <a class="button button-primary" href="mailto:hello@lightframeatelier.com">
+            hello@lightframeatelier.com
+          </a>
+        </section>
+      </main>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
